@@ -1,0 +1,9 @@
+name: gatk-wdl
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - gsutil 
+  - crcmod
+  - picard
+  - gatk4
