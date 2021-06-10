@@ -2,8 +2,11 @@ name: gatk-wdl
 channels:
   - conda-forge
   - bioconda
+  - defaults
 dependencies:
   - gsutil 
   - crcmod
   - picard
   - gatk4
+  - anaconda::openjdk=8.0.152
+  - java-jdk=8.0.112
