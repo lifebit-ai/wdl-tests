@@ -13,7 +13,7 @@ RUN apt-get update -y \
 
 COPY environment.yml /
 RUN conda env create -f environment.yml && conda clean -a
-ENV PATH /opt/conda/envs/cromwell-env/bin:$PATH
+ENV PATH /opt/conda/envs/gatk-wdl/bin:$PATH
 
 
 WORKDIR /data/
