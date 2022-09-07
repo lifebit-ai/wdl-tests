@@ -23,6 +23,9 @@ task optional_output {
     File? optional_output = "optional_output.txt"
     File? non_existing_output = "non-existing-file.txt"
   }
+  runtime {
+    docker: "ubuntu:latest"
+  }
 }
 
 workflow ReadFile {
