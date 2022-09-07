@@ -1,7 +1,9 @@
 version 1.0
 
 task read_file {
-  File file
+  input {
+    File file
+  }
   command {
     cat ${file} > test_output_file.txt
   }
