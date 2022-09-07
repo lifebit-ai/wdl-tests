@@ -20,8 +20,8 @@ task optional_output {
     echo "something" > optional_output.txt
   }
   output {
-    File? = "optional_output.txt"
-    File? = "non-existing-file.txt"
+    File? optional_output = "optional_output.txt"
+    File? non_existing_output = "non-existing-file.txt"
   }
 }
 
