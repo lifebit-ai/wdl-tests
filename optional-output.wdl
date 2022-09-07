@@ -28,7 +28,4 @@ task optional_output {
 workflow ReadFile {
   call optional_output
   call read_file
-  output {
-    read_file.contents
-  }
 }
