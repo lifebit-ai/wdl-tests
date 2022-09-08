@@ -30,5 +30,6 @@ workflow ReadFile {
   output {
     Array[File] read_file_contents = read_file.contents
     File? optional_out_out = optional_output.optional_output
+    File? non_existing_output = optional_output.non_existing_output
   }
 }
