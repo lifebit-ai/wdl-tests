@@ -1,5 +1,3 @@
-version 1.1
-
 task read_file {
   input {
     File file
