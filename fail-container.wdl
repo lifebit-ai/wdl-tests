@@ -1,6 +1,6 @@
 task fail {
   command {
-    trololo
+    echo "teste"
   }
   runtime {
     docker: "ubrutu:latest"
