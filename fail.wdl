@@ -3,7 +3,7 @@ task fail {
     trololo
   }
   runtime {
-    docker: "ubuntu:latest"
+    docker: "quay.io/lifebitai/ubuntu:18.10"
   }
   output {
     File? opt_out = "non-existing-optional_output.txt" 
